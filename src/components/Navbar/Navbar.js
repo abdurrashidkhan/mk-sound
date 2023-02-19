@@ -30,7 +30,7 @@ const Navbar = () => {
 						</Link>
 					</div>
 					<div className="flex-none">
-						<input className='border px-4 py-2 rounded' type="text" placeholder='search products' />
+						<input className='border px-4 py-2 rounded hidden lg:block' type="text" placeholder='search products' />
 
 						<div className="dropdown dropdown-end">
 							<label tabIndex={0} className="btn btn-ghost btn-circle">

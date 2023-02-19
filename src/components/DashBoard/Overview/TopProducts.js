@@ -5,7 +5,7 @@ import headphone from '../../../assets/img/topProductss.png'
 const TopProducts = () => {
   return (
     <div className='container mx-auto px-2'>
-      <div className="flex items-center justify-center bg-[#fff] rounded-xl py-6 mt-6 mr-5">
+      <div className="flex items-center justify-center lg:bg-[#fff] rounded-xl py-6 mt-6 mr-5">
         <div className="">
           <img src={headphone} alt="" />
         </div>

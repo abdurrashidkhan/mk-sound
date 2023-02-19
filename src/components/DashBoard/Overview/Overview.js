@@ -14,10 +14,10 @@ const Overview = () => {
       {/* headphone component */}
       <div className="">
         <div className="flex justify-between">
-          <div className="w-[70%]">
+          <div className="w-[100%] lg:w-[70%]">
             <TopProducts />
           </div>
-          <div className="w-[30%] ">
+          <div className="lg:w-[30%] w-[100%]">
             <div className="">
             <RightSideslide></RightSideslide>
             </div>
