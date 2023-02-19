@@ -50,17 +50,17 @@ const DashBoard = () => {
 					</div>
 					<div className="drawer-side ">
 						<label htmlFor="open-dashboard-menu" className="drawer-overlay "></label>
-						<ul className="menu mt-[50px] p-4 overflow-y-auto w-80 bg-[#ffffff] border-r border-[#00000018] shadow-2xl  text-slate-600 font-semibold" id='slideBar'>
+						<ul className="menu mt-[50px] p-4 overflow-y-auto w-60 bg-[#ffffff] border-r border-[#00000018] shadow-2xl  text-slate-600 font-semibold" id='slideBar'>
 
 							{/* <!-- Sidebar content here --> */}
 							<li className='py-[0px] text-lg hover:text-black rounded'><CustomLink className='flex gap-4 capitalize' to={'/'}><HomeIcon className='text-slate-600 w-6 '></HomeIcon>Home</CustomLink></li>
 							<li className='py-[0px] text-lg hover:text-black rounded'><CustomLink className='flex gap-4 capitalize' to={'/explore'}><CogIcon className='text-slate-600 w-6' />Explore</CustomLink></li>
-							<li className='py-[0px] text-lg hover:text-black rounded'><CustomLink className='flex gap-4 capitalize' to={'/saved'}><img src={exploerIcon} className='text-slate-600 w-[27px]' /> Saved </CustomLink></li>
-							<li className='py-[0px] text-lg hover:text-black rounded'><CustomLink className='flex gap-4 capitalize' to={'/selling'}><img src={takaIcon} className='text-slate-600 w-[27px]' /> Selling </CustomLink></li>
-							<li className='py-[0px] text-lg hover:text-black rounded'><CustomLink className='flex gap-4 capitalize' to={'/cart'}><img src={cartIcon} className='text-slate-600 w-[27px]' /> Cart </CustomLink></li>
-							<li className='py-[0px] text-lg hover:text-black rounded'><CustomLink className='flex gap-4 capitalize' to={'/profile'}><img src={profileIcon} className='text-slate-600 w-[27px]' /> Profile </CustomLink></li>
-							<li className='py-[0px] text-lg hover:text-black rounded'><CustomLink className='flex gap-4 capitalize' to={'/history'}><img src={history} className='text-slate-600 w-[27px]' /> History </CustomLink></li>
-							<li className='py-[0px] text-lg hover:text-black rounded'><CustomLink className='flex gap-4 capitalize' to={'/setting'}><img src={setting} className='text-slate-600 w-[27px]' /> Setting </CustomLink></li>
+							<li className='py-[0px] text-lg hover:text-black rounded'><CustomLink className='flex gap-4 capitalize' to={'/saved'}><img src={exploerIcon} className='text-slate-600 w-[27px]' alt=''/> Saved </CustomLink></li>
+							<li className='py-[0px] text-lg hover:text-black rounded'><CustomLink className='flex gap-4 capitalize' to={'/selling'}><img src={takaIcon} className='text-slate-600 w-[27px]' alt=''/> Selling </CustomLink></li>
+							<li className='py-[0px] text-lg hover:text-black rounded'><CustomLink className='flex gap-4 capitalize' to={'/cart'}><img src={cartIcon} className='text-slate-600 w-[27px]' alt=''/> Cart </CustomLink></li>
+							<li className='py-[0px] text-lg hover:text-black rounded'><CustomLink className='flex gap-4 capitalize' to={'/profile'}><img src={profileIcon} className='text-slate-600 w-[27px]'alt='' /> Profile </CustomLink></li>
+							<li className='py-[0px] text-lg hover:text-black rounded'><CustomLink className='flex gap-4 capitalize' to={'/history'}><img src={history} className='text-slate-600 w-[27px]' alt=''/> History </CustomLink></li>
+							<li className='py-[0px] text-lg hover:text-black rounded'><CustomLink className='flex gap-4 capitalize' to={'/setting'}><img src={setting} className='text-slate-600 w-[27px]' alt=''/> Setting </CustomLink></li>
 						</ul>
 					</div>
 				</div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import RightSideslide from './RightSideslide';
 import TopProducts from './TopProducts';
 
 const Overview = () => {
@@ -11,7 +12,18 @@ const Overview = () => {
         <p>For the top band</p>
       </div>
       {/* headphone component */}
-      <TopProducts />
+      <div className="">
+        <div className="flex justify-between">
+          <div className="w-[70%]">
+            <TopProducts />
+          </div>
+          <div className="w-[30%] ">
+            <div className="">
+            <RightSideslide></RightSideslide>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

@@ -5,7 +5,7 @@ import headphone from '../../../assets/img/topProductss.png'
 const TopProducts = () => {
   return (
     <div className='container mx-auto px-2'>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center bg-[#fff] rounded-xl py-6 mt-6 mr-5">
         <div className="">
           <img src={headphone} alt="" />
         </div>
@@ -31,19 +31,19 @@ const TopProducts = () => {
             </p>
           </div>
           <div className='flex items-center '>
-            <button className='text-[55px] px-2 py-2 text-xl placeholder:text-2xl'> - </button>
-            <input className='px-4' type="text" placeholder='00' />
-            <button className='text-[30px] px-2'> + </button>
+            <button className='text-[55px] px-2 py-2 '> - </button>
+            <input className='px-4 mt-4 text-xl rounded outline-none border-[1px] border-[#a1a1a185]' disabled type="text" placeholder='00' />
+            <button className='text-[30px] pt-2 px-2'> + </button>
           </div>
-          <div className="">
-            <div className="">
-              <HeartIcon />
+          <div className="flex items-center gap-4">
+            <div className="border-[1px] border-[#39FF00] p-[1px] rounded text-[#39FF00]">
+              <HeartIcon className='w-[30px] h-[30px]'/>
             </div>
             <div className="">
-              <button>Add to card</button>
+              <button className='border-[1px] border-[#39FF00] py-1 px-[15px] rounded' >Add to card</button>
             </div>
             <div className="">
-              <button>
+              <button className='bg-[#39FF00] px-5 py-1 rounded hover:bg-[#35f001]'>
                 Buy Now
               </button>
             </div>
